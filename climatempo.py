@@ -50,4 +50,25 @@ textcity.place(x=10,y=4)
 textdate = Label(frame_corpo,text='08/12/2023-18:57:19',anchor='center',bg=fundo,fg=cor1,justify='left',font=('Comic Sans MS',14))
 textdate.place(x=10,y=54)
 
+umidadeL = Label(frame_corpo, text='84', height = 1, padx=0,relief='flat', anchor='center', font=('Comic Sans MS 45'), bg=fundo, fg=cor1)
+umidadeL.place(x=10,y=100)
+
+umidadeSimbol = Label(frame_corpo, text='%',height=1, padx=0, relief='flat', anchor='center', font=('Comic Sans MS 10'), bg=fundo, fg=cor1)
+umidadeSimbol.place(x=85, y=110)
+
+umidadeNome = Label(frame_corpo, text='umidade', height=1, padx=0, relief='flat', anchor='center', font=('Comic Sans MS 8'),bg=fundo, fg=cor1)
+umidadeNome.place(x=85, y=140)
+
+pressao = Label(frame_corpo, text='pressão', height=1, padx=0, relief='flat', anchor='center', font=('Comic Sans MS 10'), bg=fundo, fg = cor1)
+pressao.place(x=10, y=184)
+
+velocidade = Label(frame_corpo, text='Velocidade do Vento', height=1, padx=0, relief='flat', font=('Comic Sans 10'), bg=fundo, fg=cor1)
+velocidade.place(x=10, y=212)
+
+descricao = Label(frame_corpo, text='nublado com nuvens', height=1, padx=0, anchor='center', font=('Comic Sans MS 10'), bg=fundo, fg=cor1)
+descricao.place(x=170,y=190)
+
+
+
+
 janela.mainloop()
